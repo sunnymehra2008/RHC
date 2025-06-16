@@ -5,12 +5,9 @@ Step 1: Install GitHub Pages Deployment Package
 Step 2: Build the Angular App for Production
 --> D:\01SourceCode\006Angular\Projects\RHC> ng build --configuration production --base-href "https://sunnymehra2008.github.io/RHC/"
 
+it is often necessary to move the contents of the browser folder one level up (into the root of your server output directory). This isn't just for tidiness; it's a functional requirement based on how the SSR server expects static assets.
+
 Step 3: Deploy to GitHub Pages
 --> D:\01SourceCode\006Angular\Projects\RHC> npx angular-cli-ghpages --dir=dist/RHC
 
 https://sunnymehra2008.github.io/RHC/
-
-
-
---> Push changes to gh-pages
-git push origin gh-pages
