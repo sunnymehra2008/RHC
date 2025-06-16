@@ -1,0 +1,16 @@
+
+Step 1: Install GitHub Pages Deployment Package
+--> D:\01SourceCode\006Angular\Projects\RHC> ng add angular-cli-ghpages
+
+Step 2: Build the Angular App for Production
+--> D:\01SourceCode\006Angular\Projects\RHC> ng build --configuration production --base-href "https://sunnymehra2008.github.io/RHC/"
+
+Step 3: Deploy to GitHub Pages
+--> D:\01SourceCode\006Angular\Projects\RHC> npx angular-cli-ghpages --dir=dist/RHC
+
+https://sunnymehra2008.github.io/RHC/
+
+
+
+--> Push changes to gh-pages
+git push origin gh-pages
